@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: VeraMono;
+  font-style: normal;
+  src: url("fonts/VeraMono.woff");
+}
+@font-face {
+  font-family: Ormont;
+  font-style: normal;
+  src: url("fonts/Ormont_Light.otf");
+}
+@font-face {
+  font-family: OrmontOutline;
+  font-style: normal;
+  src: url("fonts/Ormont_Outline.otf");
+}
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+  50% {
+    text-shadow: 0px 0px 20px #f95bfa;
+  }
+  100% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+}
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+  50% {
+    text-shadow: 0px 0px 20px #f95bfa;
+  }
+  100% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+}
+@-o-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+  50% {
+    text-shadow: 0px 0px 20px #f95bfa;
+  }
+  100% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+  50% {
+    text-shadow: 0px 0px 20px #f95bfa;
+  }
+  100% {
+    text-shadow: 0px 0px 0px #f95bfa;
+  }
+}
+.App {
+  background-color: #1e1e1e;
+}
+.App-footerContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+}
+.App-headerContainer {
+  height: 100px;
+}
+.App-descriptionContainer {
+  margin-top: 50px;
+  width: 100%;
+}
+.App-trailerContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Header-title {
+  text-align: middle;
+  font-family: Ormont;
+  font-size: 40px;
+  align-self: center;
+  color: #10dfff;
+  animation: glow 3s infinite;
+}
+.Footer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.Description {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.Description-text {
+  font-family: VeraMono;
+  font-size: 20px;
+  color: #fff;
+  padding: 30px;
+}
+.Trailer {
+  display: flex;
+  margin: 0 auto;
+}
